@@ -4,13 +4,13 @@
     padding: 0;
     font-family: 'inter', sans-serif;
 }
-#nav-container{
+.nav-container{
    display: flex;
    align-items: center  ;
    justify-content: center;
    padding: 14px;
    gap: 1rem;
-   background-color: rgb(255, 247, 237);
+   background-color:  rgb(255, 240, 223);
    border: 100px;
 }
 .text-link{
@@ -19,7 +19,7 @@
 }
 .text-link:hover{
     text-decoration: underline;
-    color: aqua;
+    color: rgb(180, 113, 13);
 }
 
 .banner-card{
@@ -37,7 +37,7 @@
     top: 25%;
     padding: 3rem;
 }
-body {
+body{
     font-size: 0.9rem;
     background-color: rgb(255, 240, 223);
 }
@@ -49,4 +49,35 @@ body {
     align-items: center;
     justify-content: center;
     
+}
+.contenedor { 
+    display: flex;       
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 3rem;             
+    margin: 0;
+    border-radius: 10%;   
+    padding: 2rem;        
+}
+
+.contenedor div {
+    background-color: white; 
+    padding: 1.5rem;         
+    width: 80%;             
+    max-width: 800px;       
+    border-radius: 10px;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.contenedor h2 {
+    margin-top: 0;           
+    font-size: 1.5rem;       
+    color: #333;             
+}
+
+.contenedor p {
+    font-size: 1rem;         
+    line-height: 1.6;        
+    color: #555;           
 }
